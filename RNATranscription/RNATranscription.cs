@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace RNATranscriptionModule{
     public static class RnaTranscription{
         public static string ToRna(string nucleotide){
