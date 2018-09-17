@@ -4,7 +4,7 @@ namespace RNATranscriptionModule{
     public static class RnaTranscription{
         public static string ToRna(String nucleotide){
             int n = nucleotide.Length;
-            StringBuilder nucleotide2 = new StringBuilder("",50); //To avoid immutable property of String
+            StringBuilder nucleotide2 = new StringBuilder(""); //To avoid immutable property of String
             for(int i = 0; i < n; i++){
                 switch (nucleotide[i]){
                     case 'G':
