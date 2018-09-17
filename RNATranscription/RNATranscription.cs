@@ -21,7 +21,6 @@ namespace RNATranscriptionModule{
                         break;
                     default:
                         throw (new ArgumentException("Invalid DNA Sequence. Error: " + nucleotide[i]));
-                        break;
                 }
             }
             return nucleotide2.ToString();
