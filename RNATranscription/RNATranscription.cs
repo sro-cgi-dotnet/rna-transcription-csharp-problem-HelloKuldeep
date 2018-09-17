@@ -20,6 +20,7 @@ namespace RNATranscriptionModule{
                         nucleotide2.Append("U");
                         break;
                     default:
+                        throw (new ArgumentException("Invalid DNA Sequence. Error: " + nucleotide[i]));
                         break;
                 }
             }
